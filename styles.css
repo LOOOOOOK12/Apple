@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background: var(--color--BG);
+    color: var(--color--Text) ;
+}
+
+:root{
+    --color--BG:white;
+    --color--Text:#ffffff;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+#home-section,#what-Section,#types-Section,#purchase-Section{
+    width: 100%;
+}
+
+#nav-bar{
+    height: 80px;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+}
+ul, li{
+    list-style: none;
+    display: inline-block;
+}
+
+li, a{
+    font-weight: bold;
+    margin: .5rem;
+    color: var(--color--Text);
+    text-decoration: none;
+}
+
+#home-Container{
+    height: 100vh;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("PICTURES/pexels-elizabeth-tr-armstrong-635705.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home-Contents{
+    width: 90%;
+    display: flex;
+}
+
+
+#what-Container{
+    padding: 1rem 0;
+}
