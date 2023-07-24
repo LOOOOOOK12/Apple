@@ -23,6 +23,9 @@ body{
     width: 100%;
 }
 
+
+
+/*NAV*/
 #nav-bar{
     height: 80px;
     top: 0;
@@ -34,6 +37,7 @@ body{
     align-items: center;
     padding: 1.5rem 5%;
 }
+
 ul, li{
     list-style: none;
     display: inline-block;
@@ -45,6 +49,8 @@ li, a{
     color: var(--color--Text);
     text-decoration: none;
 }
+
+/*HOME*/
 
 #home-Container{
     height: 100vh;
@@ -59,9 +65,15 @@ li, a{
 #home-Contents{
     width: 90%;
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
+#home-Contents h2{
+    font-size: 10rem;
+}
 
+/*WHAT*/
 #what-Container{
-    padding: 1rem 0;
+    background: rgb(48, 48, 48);
 }
