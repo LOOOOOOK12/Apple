@@ -19,15 +19,16 @@ body{
    display: none;
 }
 
-#home-section,#what-Section,#types-Section,#purchase-Section{
+/* #home-section,#what-Section,#types-Section,#purchase-Section{
+    width: 100%;
+} */
+
+#home-container{
     width: 100%;
 }
 
-
-
 /*NAV*/
 #nav-bar{
-    height: 80px;
     top: 0;
     z-index: 15;
     width: 100%;
