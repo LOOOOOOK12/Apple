@@ -19,13 +19,11 @@ body{
    display: none;
 }
 
-/* #home-section,#what-Section,#types-Section,#purchase-Section{
-    width: 100%;
-} */
-
-#home-container{
+#home-Container,#what-Container{
     width: 100%;
 }
+
+
 
 /*NAV*/
 #nav-bar{
@@ -72,7 +70,7 @@ li, a{
 #home-Container{
     height: 100vh;
     background-size: cover;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("PICTURES/pexels-elizabeth-tr-armstrong-635705.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url("PICTURES/pexels-elizabeth-tr-armstrong-635705.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,6 +89,7 @@ li, a{
 }
 
 #home-Contents p{
+    padding: 0 10rem;
     line-height: 2rem;
     font-size: 1.3rem;
 }
@@ -112,7 +111,20 @@ li, a{
 
 /*WHAT*/
 #what-Container{
+    padding: 3rem 5rem;
     background: #303030;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+#apple{
+    border-radius: 3rem;
+    height: 30rem;
+    width: 40rem;
 }
 
 @media (max-width: 1023px) {
