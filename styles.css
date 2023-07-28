@@ -41,6 +41,10 @@ html {
     padding: 1.5rem 5%;
 }
 
+h1{
+    cursor: pointer;
+}
+
 ul, li{
     list-style: none;
     display: inline-block;
