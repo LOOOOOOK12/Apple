@@ -10,6 +10,10 @@ body{
     color: var(--color--Text) ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
     --color--BG:white;
     --color--Text:#ffffff;
@@ -44,6 +48,7 @@ ul, li{
 
 li, a{
     font-weight: bold;
+    font-size: 1.3rem;
     margin: .5rem;
     color: var(--color--Text);
     text-decoration: none;
@@ -111,7 +116,7 @@ li, a{
 
 /*WHAT*/
 #what-Container{
-    padding: 3rem 5rem;
+    padding: 5rem 5rem;
     background: #303030;
     display: flex;
     justify-content: center;
@@ -120,11 +125,45 @@ li, a{
     gap: 5rem;
 }
 
+#what-Contents{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
 
 #apple{
+    object-fit: cover;
     border-radius: 3rem;
     height: 30rem;
     width: 40rem;
+}
+
+
+/*TYPES*/
+#types-Container{
+    padding: 5rem 5rem;
+    background: #5a5a5a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+#types-Content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    gap: 1rem;
 }
 
 @media (max-width: 1023px) {
