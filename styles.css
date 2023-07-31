@@ -139,14 +139,41 @@ li, a{
 }
 
 h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #apple{
     object-fit: cover;
     border-radius: 3rem;
     height: 30rem;
-    width: 35rem;
+    width: 33rem;
+    transition: 0.5s ease;
+    filter: grayscale(100%);
+}
+
+#apple-Images img:hover{
+    transition: 0.5s ease;
+    filter: grayscale(0%);
+}
+
+/*BENEFITS*/
+#benefits-Container{
+    padding: 5rem 5rem;
+    background: #535353;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+#benefits-Content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    gap: 1rem;
 }
 
 
