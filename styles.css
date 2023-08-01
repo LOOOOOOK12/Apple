@@ -23,7 +23,7 @@ html {
    display: none;
 }
 
-#home-Container,#what-Container{
+#home-Container,#what-Container,#benefits-Container{
     width: 100%;
 }
 
@@ -50,7 +50,7 @@ ul, li{
     display: inline-block;
 }
 
-li, a{
+li,a{
     font-weight: bold;
     font-size: 1.3rem;
     margin: .5rem;
@@ -164,33 +164,34 @@ h3{
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 5rem;
 }
 
 #benefits-Content{
-    text-align: center;
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
     font-size: 1.2rem;
-    gap: 1rem;
+    gap: 2rem;
+    width: 100%;
+
 }
 
 #benefits-Picture{
     position: relative;
-    width: 35rem;
+    width: 70rem;
     height: 30rem;
 }
 
-#benefits-Picture img{
-    display: block;
+#apple2{
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 3rem;
+
 }
 
 #benefits-Caption-Overlay{
-    border-radius: 3rem;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -203,7 +204,7 @@ h3{
     flex-direction: column;
     opacity: 0;
     transition: 0.3s ease;
-    padding: 3rem 3rem;
+    padding: 5rem;
 }
 
 #benefits-Caption-Overlay ul{
