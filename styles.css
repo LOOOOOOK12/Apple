@@ -126,7 +126,7 @@ li,a{
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 #what-Contents{
@@ -136,6 +136,7 @@ li,a{
     line-height: 1.6rem;
     font-size: 1.2rem;
     gap: 1rem;
+    width: 70rem;
 }
 
 h3{
@@ -143,6 +144,7 @@ h3{
 }
 
 #apple{
+    position: relative;
     object-fit: cover;
     border-radius: 3rem;
     height: 30rem;
@@ -159,11 +161,20 @@ h3{
 /*BENEFITS*/
 #benefits-Container{
     padding: 5rem 5rem;
-    background: #535353;
+    background: #3b3b3b;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+#text{
+    width: 85rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    gap: 1rem;
 }
 
 #benefits-Content{
@@ -188,7 +199,7 @@ h3{
     object-fit: cover;
     width: 100%;
     height: 100%;
-
+    border-radius: 3rem;
 }
 
 #benefits-Caption-Overlay{
@@ -205,6 +216,7 @@ h3{
     opacity: 0;
     transition: 0.3s ease;
     padding: 5rem;
+    border-radius: 3rem;
 }
 
 #benefits-Caption-Overlay ul{
