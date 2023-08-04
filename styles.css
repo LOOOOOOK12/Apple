@@ -240,14 +240,13 @@ h3{
 
 /*TYPES*/
 #types-Container{
-    padding: 5rem 5rem;
+    padding: 5rem 4rem;
     background: #5a5a5a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 2rem;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -259,15 +258,16 @@ h3{
 
 #apple-types-1,#apple-types-2{
     flex-wrap: wrap;
+    width: 100%;
 }
 
-#apple-types-Images #content{
+#content{
    font-size: 1.1rem;
 }
 
 #apple-types-Images #content h5{
     font-size: 1.7rem;
-    margin-bottom: 1rem ;
+    margin-bottom: .5rem ;
  }
 
 #apple-types-Images img{
@@ -281,10 +281,11 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 1.5rem;
-    margin: 3rem 0;
-    width: 100%;
+    margin: 1.5rem 0;
 }
+
 
 #types-Content{
     text-align: center;
