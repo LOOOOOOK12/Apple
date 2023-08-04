@@ -94,7 +94,7 @@ li,a{
 }
 
 #home-Contents h2{
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 #home-Contents p{
@@ -143,12 +143,18 @@ h3{
     font-size: 2rem;
 }
 
+#apple-Images{
+    position: relative;
+    width: 65rem;
+    height: 30rem;
+}
+
 #apple{
     position: relative;
     object-fit: cover;
     border-radius: 3rem;
-    height: 30rem;
-    width: 33rem;
+    height: 100%;
+    width: 100%;
     transition: 0.5s ease;
     filter: grayscale(100%);
 }
@@ -237,10 +243,47 @@ h3{
     padding: 5rem 5rem;
     background: #5a5a5a;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     gap: 5rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#apple-types-Images{
+    display: flex;
+    gap:2rem
+}
+
+#apple-types-1,#apple-types-2{
+    flex-wrap: wrap;
+}
+
+#apple-types-Images #content{
+   font-size: 1.1rem;
+}
+
+#apple-types-Images #content h5{
+    font-size: 1.7rem;
+    margin-bottom: 1rem ;
+ }
+
+#apple-types-Images img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+#fuji-Apple,#empire-Apple,#goldenD-Apple,#grannySmith-Apple,#pinkLady-Apple,#honeyCrisp-Apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 3rem 0;
+    width: 100%;
 }
 
 #types-Content{
@@ -251,6 +294,8 @@ h3{
     font-size: 1.2rem;
     gap: 1rem;
 }
+
+/*PURCHASE*/
 
 #purchase-Container{
     padding: 5rem 5rem;
@@ -306,6 +351,18 @@ h3{
 
     .nav-menu.active {
         left: 0;
+    }
+
+    #apple-types-Images{
+        flex-wrap: wrap;
+    }
+
+    #what-Container{
+        flex-wrap: wrap;
+    }
+
+    #benefits-Content{
+        flex-wrap: wrap;
     }
 
 }
