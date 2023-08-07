@@ -90,6 +90,7 @@ li,a{
     width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -97,8 +98,7 @@ li,a{
     font-size: 6rem;
 }
 
-#home-Contents p{
-    padding: 0 10rem;
+#intro{
     line-height: 2rem;
     font-size: 1.3rem;
 }
@@ -363,6 +363,35 @@ h3{
 
     #benefits-Content{
         flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    #home-Contents h2{
+        font-size: 3rem;
+    }
+
+    #intro{
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #fuji-Apple,#empire-Apple,#goldenD-Apple,#grannySmith-Apple,#pinkLady-Apple,#honeyCrisp-Apple{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    #home-Contents h2{
+        font-size: 3rem;
+    }
+
+    #intro{
+        line-height: 2rem;
+        font-size: 1rem;
     }
 
 }
