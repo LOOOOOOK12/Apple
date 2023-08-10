@@ -388,6 +388,10 @@ h3{
         font-size: 3rem;
     }
 
+    #home-Contents p{
+        font-size: 1.2rem;
+    }
+
     #intro{
         line-height: 2rem;
         font-size: 1rem;
