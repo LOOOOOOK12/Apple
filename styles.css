@@ -318,6 +318,24 @@ h3{
     gap: 1rem;
 }
 
+#shop{
+    display: flex;
+}
+
+#shop-1, #shop-2{
+    flex-wrap: wrap;
+}
+
+#amount-Container{
+    margin: 5rem 1.5rem;;
+}
+
+#amount-Container img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 1.2rem;
+}
+
 @media (max-width: 1023px) {
     
     #hamburger {
