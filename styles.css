@@ -306,7 +306,7 @@ h3{
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 5rem;
+    
 }
 
 #purchase-Contents{
@@ -320,6 +320,7 @@ h3{
 
 #shop{
     display: flex;
+    gap: 1rem
 }
 
 #shop-1, #shop-2{
@@ -327,11 +328,11 @@ h3{
 }
 
 #amount-Container{
-    margin: 5rem 1.5rem;;
+    margin: 5rem 0;
+    width: 100%;
 }
 
 #amount-Container img{
-    width: 100%;
     height: 15rem;
     border-radius: 1.2rem;
 }
@@ -385,6 +386,10 @@ h3{
         flex-wrap: wrap;
     }
 
+    #shop{
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 930px) {
@@ -419,5 +424,7 @@ h3{
         display: flex;
         flex-direction: column;
     }
+
+    
 
 }
