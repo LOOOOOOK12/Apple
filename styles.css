@@ -345,6 +345,15 @@ h3{
     background: transparent;
     border: 2px solid white;
     border-radius: .4rem;
+    transition: .5s ease;
+}
+
+#amount-Count button:hover{
+    background-color: rgb(97, 97, 97)
+}
+
+#amount-Count ,button, label{
+    margin: 0 .5rem;
 }
 
 @media (max-width: 1023px) {
