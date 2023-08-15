@@ -300,7 +300,7 @@ h3{
 /*PURCHASE*/
 
 #purchase-Container{
-    padding: 5rem 5rem;
+    padding: 5rem 4rem;
     background: #202020;
     display: flex;
     justify-content: center;
@@ -328,13 +328,23 @@ h3{
 }
 
 #amount-Container{
-    margin: 5rem 0;
-    width: 100%;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 #amount-Container img{
     height: 15rem;
     border-radius: 1.2rem;
+}
+
+#amount-Count button{
+    color: white;
+    padding: .6rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: .4rem;
 }
 
 @media (max-width: 1023px) {
@@ -388,6 +398,7 @@ h3{
 
     #shop{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
