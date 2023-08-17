@@ -320,15 +320,17 @@ h3{
 
 #shop{
     display: flex;
-    gap: 1rem
+    gap: 5rem;
 }
 
 #shop-1, #shop-2{
     flex-wrap: wrap;
+    width: 100%;
+    
 }
 
 #amount-Container{
-    margin: 5rem;
+    margin: 5rem 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -336,6 +338,8 @@ h3{
 
 #amount-Container img{
     height: 15rem;
+    object-fit: cover;
+    width: 100%;
     border-radius: 1.2rem;
 }
 
@@ -405,10 +409,7 @@ h3{
         flex-wrap: wrap;
     }
 
-    #shop{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    
 
 }
 
@@ -421,6 +422,11 @@ h3{
     #intro{
         line-height: 2rem;
         font-size: 1.2rem;
+    }
+
+    #shop{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     
