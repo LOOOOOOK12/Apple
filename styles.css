@@ -332,6 +332,7 @@ h3{
 #amount-Container{
     margin: 5rem 1.5rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2rem;
 }
@@ -341,6 +342,20 @@ h3{
     object-fit: cover;
     width: 100%;
     border-radius: 1.2rem;
+}
+
+#purchase-Button{
+    color: white;
+    width: 7rem;
+    padding: 0.5rem;
+    border: 2px white solid;
+    border-radius: .5rem;
+    background: transparent;
+    transition: 0.5s ease;
+}
+
+#purchase-Button:hover{
+    background-color: #38ff38;
 }
 
 #amount-Count button{
@@ -353,7 +368,7 @@ h3{
 }
 
 #amount-Count button:hover{
-    background-color: rgb(97, 97, 97)
+    background-color: #616161
 }
 
 #amount-Count ,button, label{
