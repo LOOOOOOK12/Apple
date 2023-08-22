@@ -303,7 +303,7 @@ h3{
     padding: 5rem 4rem;
     background: #202020;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     
@@ -428,7 +428,7 @@ h3{
 
 }
 
-@media (max-width: 930px) {
+@media (max-width: 700px) {
 
     #home-Contents h2{
         font-size: 3rem;
