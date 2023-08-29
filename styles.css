@@ -308,7 +308,7 @@ h3{
     padding: 5rem 4rem;
     background: #202020;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
@@ -329,13 +329,13 @@ h3{
 
 #shop{
     display: flex;
-    gap: 5rem;
+    
+    flex-direction: column;
 }
 
 #shop-1, #shop-2{
-    flex-wrap: wrap;
+    display: flex;
     width: 100%;
-    
 }
 
 #amount-Container{
@@ -436,7 +436,6 @@ h3{
         flex-wrap: wrap;
     }
 
-    
 
 }
 
@@ -454,6 +453,11 @@ h3{
     #shop{
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    #shop-1, #shop-2{
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     
