@@ -8,7 +8,7 @@ const counter = document.getElementsByClassName("count");
 
 let count = 0;
 
-let counts = [0, 0, 0, 0, 0];
+let counts = [0, 0, 0, 0, 0, 0];
 
 burgir.addEventListener("click", () => {
     burgir.classList.toggle("active");
@@ -44,11 +44,11 @@ for (var i = 0; i < increase.length; i++) {
 // }
 
 purchase.onclick =() => {
-    if(count ===0 ){
+    if(counts ===0 ){
       alert("Amount empty! please get amount!");
     }
     else{
-      alert(`You have purchased this ${count} amount!`);
+      alert(`You have purchased this ${counts} amount!`);
     }
    
 }
