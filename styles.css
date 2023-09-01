@@ -267,6 +267,10 @@ h3{
     width: 100%;
 }
 
+#apple-types-1 p,#apple-types-2 p{
+    text-align: left;
+}
+
 #content{
    font-size: 1.1rem;
 }
@@ -289,7 +293,7 @@ h3{
     justify-content: center;
     text-align: center;
     gap: 1.5rem;
-    margin: 5rem 1.5rem;
+    margin: 1.5rem;
 }
 
 
