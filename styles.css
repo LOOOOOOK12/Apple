@@ -395,7 +395,7 @@ h3{
 footer{
     width: 100%;
     padding: 1.5rem;
-    background: #797979;
+    background: #111111;
     display: flex;
     justify-content: space-around;
 }
@@ -407,7 +407,7 @@ footer{
 
 #list li{
     color: white;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 @media (max-width: 1023px) {
