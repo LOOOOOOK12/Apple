@@ -50,7 +50,7 @@ ul, li{
     display: inline-block;
 }
 
-li,a{
+#Nav-links li,a{
     font-weight: bold;
     font-size: 1.5rem;
     margin: .5rem;
@@ -121,7 +121,7 @@ li,a{
 
 /*WHAT*/
 #what-Container{
-    padding: 5rem 5rem;
+    padding: 5rem 3.8rem;
     background: #303030;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ h3{
 
 /*BENEFITS*/
 #benefits-Container{
-    padding: 5rem 5rem;
+    padding: 5rem 3.8rem;
     background: #3b3b3b;
     display: flex;
     justify-content: center;
@@ -246,7 +246,7 @@ h3{
 
 /*TYPES*/
 #types-Container{
-    padding: 5rem 4rem;
+    padding: 5rem 2.5rem;
     background: #5a5a5a;
     display: flex;
     flex-direction: column;
@@ -397,7 +397,32 @@ footer{
     padding: 1.5rem;
     background: #111111;
     display: flex;
-    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Footer1{
+    padding: 0rem 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#socials li{
+    margin: 0 .5rem;
+}
+
+#head h1{
+    font-size: 3rem;
+}
+
+#Footer2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 3rem;
 }
 
 #Footer-links ul{
@@ -406,6 +431,7 @@ footer{
 }
 
 #list li{
+    margin: .5rem;
     color: white;
     font-size: .9rem;
 }
@@ -451,13 +477,10 @@ footer{
         flex-wrap: wrap;
     }
 
-    #what-Container{
-        flex-wrap: wrap;
-    }
 
-    #benefits-Content{
+    /* #benefits-Content{
         flex-wrap: wrap;
-    }
+    } */
 
 
 }
@@ -466,6 +489,22 @@ footer{
 
     #home-Contents h2{
         font-size: 3rem;
+    }
+
+     #what-Container{
+        flex-wrap: wrap;
+    }
+
+    #benefits-Content{
+        flex-wrap: wrap;
+    }
+
+    #apple-Images{
+        height: 20rem;
+    }
+
+    #benefits-Picture{
+        height: 20rem;
     }
 
     #intro{
