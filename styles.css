@@ -440,6 +440,22 @@ hr{
     font-size: .9rem;
 }
 
+.bocchi {
+    color: #ffa9a9;
+}
+
+.kita {
+    color: #ff0000;
+}
+
+.nijika {
+    color:  #ffff8a;
+}
+
+.ryo {
+    color: #466DFF;
+}
+
 @media (max-width: 1023px) {
     
     #hamburger {
@@ -527,6 +543,13 @@ hr{
     }
 
     
+}
+
+@media (max-width:600px){
+    #Footer1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 500px) {
