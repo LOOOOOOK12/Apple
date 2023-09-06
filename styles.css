@@ -394,7 +394,7 @@ h3{
 
 footer{
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 4rem;
     background: #111111;
     display: flex;
     gap: 1.5rem;
@@ -416,6 +416,10 @@ footer{
 
 #head h1{
     font-size: 3rem;
+}
+
+hr{
+    width: 100%;
 }
 
 #Footer2{
