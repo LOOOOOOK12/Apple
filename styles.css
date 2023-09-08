@@ -320,7 +320,7 @@ h3{
 
 
 #purchase-Container h4{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #purchase-Contents{
@@ -408,6 +408,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#sites img{
+    height: 2.5rem;
 }
 
 #socials li{
@@ -539,6 +543,16 @@ hr{
 
     #shop-1, #shop-2{
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #Footer1{
+        /* display: flex; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sites{
         flex-wrap: wrap;
     }
 
