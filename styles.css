@@ -438,10 +438,26 @@ hr{
     flex-direction: column;
 }
 
+#Footer-links-Inputs{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
 #list li{
     margin: .5rem;
     color: white;
     font-size: .9rem;
+}
+
+#inputs input{
+    background: transparent;
+    border: 2px solid white;
+    padding: 0.2rem;
+}
+
+#send-BTN{
+    width: 100%;
 }
 
 .bocchi {
@@ -561,6 +577,11 @@ hr{
 
 @media (max-width:600px){
     #Footer1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Footer2{
         flex-wrap: wrap;
         justify-content: center;
     }
