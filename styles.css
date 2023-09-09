@@ -80,6 +80,7 @@ ul, li{
     height: 100vh;
     background-size: cover;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url("PICTURES/pexels-elizabeth-tr-armstrong-635705.jpg");
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
