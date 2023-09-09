@@ -405,8 +405,7 @@ footer{
     flex-direction: column;
 }
 
-#Footer1{
-    padding: 0rem 2rem;
+#Footer1{   
     width: 100%;
     display: flex;
     align-items: center;
@@ -655,10 +654,12 @@ textarea{
         /* display: flex; */
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     #sites{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     
