@@ -605,7 +605,18 @@ textarea{
 
 }
 
+@media (max-width: 880px){
+    #amount-Container img{
+        height: 10rem;
+    }
+}
+
 @media (max-width: 768px) {
+    
+    #amount-Container img{
+        height: 10rem;
+    }
+    
     #Footer2{
        width: 100%;
         flex-wrap: wrap;
