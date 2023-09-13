@@ -336,7 +336,6 @@ h3{
 
 #shop{
     display: flex;
-    
     flex-direction: column;
 }
 
@@ -607,14 +606,14 @@ textarea{
 
 @media (max-width: 880px){
     #amount-Container img{
-        height: 10rem;
+        height: 15rem;
     }
 }
 
 @media (max-width: 768px) {
     
     #amount-Container img{
-        height: 10rem;
+        height: 15rem;
     }
     
     #Footer2{
@@ -673,8 +672,7 @@ textarea{
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    
+ 
 }
 
 @media (max-width:600px){
