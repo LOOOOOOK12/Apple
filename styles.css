@@ -343,6 +343,7 @@ h3{
     margin: 1.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 1.3rem;
 }
