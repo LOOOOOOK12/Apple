@@ -139,9 +139,6 @@ ul, li{
     gap: 1rem;
     width: 70rem;
 }
-#what-Contents p{
-    text-align: left;
-}
 
 h3{
     font-size: 2rem;
@@ -179,6 +176,7 @@ h3{
 
 #text{
     width: 70rem;
+    padding: 1.5rem;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -187,9 +185,7 @@ h3{
     gap: 1rem;
 }
 
-#text p{
-    text-align: left;
-}
+
 
 #benefits-Content{
     display: flex;
@@ -269,10 +265,6 @@ h3{
     width: 100%;
 }
 
-#apple-types-1 p,#apple-types-2 p{
-    text-align: left;
-}
-
 #content{
    font-size: 1.1rem;
 }
@@ -322,7 +314,7 @@ h3{
 
 
 #purchase-Container h4{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 #purchase-Contents{
@@ -613,7 +605,7 @@ textarea{
 @media (max-width: 768px) {
     
     #amount-Container img{
-        height: 15rem;
+        height: 11rem;
     }
     
     #Footer2{
