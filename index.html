@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="PICTURES\apple-2327 (1).png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Apples</title>
   </head>
   <body>
@@ -28,7 +29,7 @@
     </nav>
     <section id="home-Section">
       <div id="home-Container">
-        <div id="home-Contents">
+        <div id="home-Contents" data-aos="zoom-in" data-aos-delay="200">
           <h2>APPLES</h2>
           <p>
             Experience the mouthwatering delight of apples, a perfect blend of
@@ -49,11 +50,12 @@
           <img
             id="apple"
             src="PICTURES\pexels-suzy-hazelwood-1510392.jpg"
-            alt="Apple Psicture"
+            alt="Apple Picture"
+            data-aos="fade-right"
           />
         </div>
 
-        <div id="what-Contents">
+        <div id="what-Contents" data-aos="fade-left">
           <h3>What are Apples?</h3>
           <p>
             Apples are fruit from the Malus domestica tree, recognized for their
@@ -72,6 +74,7 @@
               id="apple2"
               src="PICTURES\pexels-matheus-cenali-2487443.jpg"
               alt="Apple Picture"
+              data-aos="fade-left"
             />
             <div id="benefits-Caption-Overlay">
               <ul>
@@ -83,7 +86,7 @@
               </ul>
             </div>
           </div>
-          <div id="text">
+          <div id="text" data-aos="fade-right">
             <h3>Benefits of Apples</h3>
             <p>
               Eating two apples provides a substantial amount of dietary fiber,
@@ -101,7 +104,7 @@
         <h3>Types of Apples</h3>
         <div id="apple-types-Images">
           <div id="apple-types-1">
-            <div id="fuji-Apple">
+            <div id="fuji-Apple" data-aos="fade-right" data-aos-duration="3100">
               <img src="PICTURES\fuji.jpg" alt="Fuji Apple" />
               <div id="content">
                 <h5>Fuji Apple</h5>
@@ -112,7 +115,11 @@
                 </p>
               </div>
             </div>
-            <div id="empire-Apple">
+            <div
+              id="empire-Apple"
+              data-aos="fade-right"
+              data-aos-duration="3200"
+            >
               <img
                 src="PICTURES\red-apple-g4c448b3a0_1280.jpg"
                 alt="Empire Apple"
@@ -126,7 +133,11 @@
                 </p>
               </div>
             </div>
-            <div id="goldenD-Apple">
+            <div
+              id="goldenD-Apple"
+              data-aos="fade-right"
+              data-aos-duration="3300"
+            >
               <img
                 src="PICTURES\golden delicious.jpg"
                 alt="Golden Delicious Apple"
@@ -142,7 +153,11 @@
             </div>
           </div>
           <div id="apple-types-2">
-            <div id="grannySmith-Apple">
+            <div
+              id="grannySmith-Apple"
+              data-aos="fade-left"
+              data-aos-duration="3300"
+            >
               <img src="PICTURES\granny smith.jpg" alt="Granny Smith Apple" />
               <div id="content">
                 <h5>Granny Smith</h5>
@@ -153,7 +168,11 @@
                 </p>
               </div>
             </div>
-            <div id="pinkLady-Apple">
+            <div
+              id="pinkLady-Apple"
+              data-aos="fade-left"
+              data-aos-duration="3300"
+            >
               <img
                 src="PICTURES\1a316659ade6df134e204ef114861064.jpg"
                 alt="Pink Apple"
@@ -167,7 +186,11 @@
                 </p>
               </div>
             </div>
-            <div id="honeyCrisp-Apple">
+            <div
+              id="honeyCrisp-Apple"
+              data-aos="fade-left"
+              data-aos-duration="3300"
+            >
               <img src="PICTURES\honey crisp.jpg" alt="Honeycrisp Apple" />
               <div id="content">
                 <h5>Honeycrisp Apple</h5>
@@ -342,6 +365,17 @@
         </p>
       </footer>
     </section>
+
     <script src="script.js"></script>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- AOS -->
   </body>
 </html>
