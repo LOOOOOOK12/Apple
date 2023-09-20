@@ -551,6 +551,28 @@ textarea{
 
 @media (max-width: 1023px) {
     
+    
+
+    #apple-types-Images{
+        flex-wrap: wrap;
+    }
+
+
+    /* #benefits-Content{
+        flex-wrap: wrap;
+    } */
+
+
+}
+
+@media (max-width: 880px){
+    #amount-Container img{
+        height: 15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
     #hamburger {
         display: block;
     }
@@ -584,28 +606,8 @@ textarea{
 
     .nav-menu.active {
         left: 0;
-    }
+    }   
 
-    #apple-types-Images{
-        flex-wrap: wrap;
-    }
-
-
-    /* #benefits-Content{
-        flex-wrap: wrap;
-    } */
-
-
-}
-
-@media (max-width: 880px){
-    #amount-Container img{
-        height: 15rem;
-    }
-}
-
-@media (max-width: 768px) {
-    
     #amount-Container img{
         height: 11rem;
     }
