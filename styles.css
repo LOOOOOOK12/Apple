@@ -135,7 +135,7 @@ ul, li{
     display: flex;
     text-align: center;
     flex-direction: column;
-    line-height: 1.6rem;
+    line-height: 2rem;
     font-size: 1.2rem;
     gap: 1rem;
     width: 70rem;
@@ -181,7 +181,7 @@ h3{
     display: flex;
     text-align: center;
     flex-direction: column;
-    line-height: 1.6rem;
+    line-height: 2rem;
     font-size: 1.2rem;
     gap: 1rem;
 }
@@ -287,6 +287,7 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
+    line-height: 1.5rem;
     gap: 1.5rem;
     margin: 1.5rem;
 }
@@ -683,7 +684,25 @@ textarea{
     }
 }
 
+@media (max-width: 570px) {
+
+    #apple-types-Images img{
+        width: 20rem;
+    }
+
+    #fuji-Apple,#empire-Apple,#goldenD-Apple,#grannySmith-Apple,#pinkLady-Apple,#honeyCrisp-Apple{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 @media (max-width: 500px) {
+
+    #apple-types-Images img{
+        width: 100%;
+    }
+
     #home-Contents h2{
         font-size: 3rem;
     }
@@ -697,10 +716,7 @@ textarea{
         font-size: 1rem;
     }
 
-     #fuji-Apple,#empire-Apple,#goldenD-Apple,#grannySmith-Apple,#pinkLady-Apple,#honeyCrisp-Apple{
-        display: flex;
-        flex-direction: column;
-    }
+     
 
     form{
         width: 100%;
